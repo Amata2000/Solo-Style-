@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Solo Stye</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sole Style</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div id="logo">
+
+    <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+       
+
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8 32H0V21.9849C0 17.1239 4.0116 13.1839 8.96 13.1839H15.2V0.468341C15.2 0.251458 15.3792 0.0754376 15.6 0.0754376C15.7184 0.0754376 15.8308 0.127301 15.9068 0.216883L17.3616 1.92719C18.402 1.07577 19.74 0.563816 21.2 0.563816H22C23.442 0.563816 24.7656 1.06359 25.8 1.89654L27.2932 0.14066C27.3692 0.0514706 27.4812 0 27.6 0C27.8208 0 28 0.175628 28 0.392904V15.3896H23.36C17.528 15.3896 12.8 20.0337 12.8 25.7623V32Z" fill="#45413E" />
+
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M29.76 17.0569V12.0875C29.76 12.0836 29.76 12.0797 29.76 12.0758V6.79004C29.76 6.57435 29.9392 6.4 30.16 6.4C30.266 6.4 30.3676 6.44095 30.4424 6.51389L31.9576 7.98784C32.7864 7.42501 33.7936 7.09504 34.88 7.09504C35.97 7.09504 36.9808 7.42735 37.8112 7.99369L39.3176 6.52793C39.3924 6.45499 39.494 6.41404 39.6 6.41404C39.8208 6.41404 40 6.58878 40 6.80408V23.2632C40 28.0883 35.9884 32 31.04 32H14.4V25.7938C14.4 20.969 18.4116 17.0569 23.36 17.0569H29.76Z" fill="#45413E" />
+
+    </svg>
+
+    Solo <br> Style 
+
+</div>
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#about">About Us</a></li>
+
+                <li><a href="#shop">Shop Now</a></li>
+
+                <li><a href="#contact">Contact Us</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- shoe collection -->
+
+</body>
+
+</html>
+
+<!-- The Modal -->
+
+<div id="aboutModal" class="modal">
+
+  <!-- Modal content -->
+
+  <div class="modal-content">
+
+    <span class="close">&times;</span>
+
+    <h2>Welcome to SoleStyle</h2>
+
+    <p>Your destination for trendy and comfortable footwear. At SoleStyle, we believe that everyone deserves to walk in style, which is why we curate a diverse collection of shoes for every occasion. Whether you're looking for sneakers, boots, heels, or sandals, we've got you covered. Our mission is to provide high-quality footwear that not only looks good but feels good too. With a focus on style, comfort, and affordability, we aim to be your go-to destination for all your shoe needs.</p>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- The Modal -->
+<div id="aboutModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Contact Us</h2>
+    <p>
+      Address: Virtual Office: SoleStyle, 48 Awolowo Street, Lagos, Nigeria<br>
+      Email: <a href="mailto:contact@solestyle.com">contact@solestyle.com</a><br>
+      Contact Information: Phone: 0907-825-9484
+    </p>
+    
+  </div>
+  
+</div>
+   
+   <div class="shop-card">
+
+  <div class="title">
+
+    Men's Sneakers
+
+  </div>
+
+  <div class="desc">
+
+    Nike Airforce 1
+
+  </div>
+
+  <div class="slider">
+
+    <figure data-color="#E24938, #A30F22">
+
+      <img src="http://www.supah.it/dribbble/012/1.jpg" />
+
+    </figure>
+
+    <figure data-color="#6CD96A, #00986F">
+
+      <img src="http://www.supah.it/dribbble/012/2.jpg" />
+
+    </figure>
+
+    <figure data-color="#4795D1, #006EB8">
+
+      <img src="http://www.supah.it/dribbble/012/3.jpg" />
+
+    </figure>
+
+    <figure data-color="#292a2f, #131519">
+
+      <img src="http://www.supah.it/dribbble/012/4.jpg" />
+
+    </figure>
+
+  </div>
+
+  <div class="cta">
+
+    <div class="price">$130</div>
+
+    <button class="btn">Add to cart<span class="bg"></span></button>
+
+  </div>
+
+</div>
+
+<div class="bg"></div>
+
+            </div>
+
+         </div>
+
+      </section>
+
+   </div>
+
+</template>
+
+<script>
+
+// Get the modal
+
+var modal = document.getElementById("aboutModal");
+
+// Get the <span> element that closes the modal
+
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+
+span.onclick = function() {
+
+  modal.style.display = "none";
+
+}
+
+// When the user clicks anywhere outside of the modal, close it
+
+window.onclick = function(event) {
+
+  if (event.target == modal) {
+
+    modal.style.display = "none";
+
+  }
+
+}
+
+// Trigger modal when clicking on "About Us" link
+
+document.querySelector('a[href="#about"]').addEventListener('click', function() {
+
+  modal.style.display = "block";
+
+});
+
+</script>
+
+<script>
+// Get the contact us modal
+var contactUsModal = document.getElementById("contactUsModal");
+
+// Get the <span> element that closes the contact us modal
+var contactUsSpan = document.querySelector("#contactUsModal .close");
+
+// When the user clicks on <span> (x), close the contact us modal
+contactUsSpan.onclick = function() {
+  contactUsModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the contact us modal, close it
+window.onclick = function(event) {
+  if (event.target == contactUsModal) {
+    contactUsModal.style.display = "none";
+  }
+}
+
+// Trigger contact us modal when clicking on "Contact Us" link
+document.querySelector('a[href="#contact"]').addEventListener('click', function() {
+  contactUsModal.style.display = "block";
+});
+</script>
+<!-- partial -->
+  
+</body>
+</html>
